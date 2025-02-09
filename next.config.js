@@ -1,4 +1,7 @@
 const withMDX = require('@next/mdx')({ extension: /\.mdx?$/ })
 module.exports = {
-  exportTrailingSlash: true,
+  output: 'export',
+  trailingSlash: true,
+  basePath: '',
+  assetPrefix: './',
 };

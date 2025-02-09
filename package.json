@@ -8,7 +8,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "export": "next export"
+    "deploy": "next build && gh-pages -d out"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
@@ -31,6 +31,7 @@
     "theme-ui": "0.17.1"
   },
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "prettier": "^3.4.2"
   }
 }
